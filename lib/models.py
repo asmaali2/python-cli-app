@@ -39,10 +39,4 @@ class Group(Base):
 
 
 
-# class ContactGroup(Base):
-#     __tablename__ = 'name'
-#     contact_id = Column(Integer, ForeignKey('contacts.id'), primary_key=True)
-#     group_id = Column(Integer, ForeignKey('groups.id'), primary_key=True)
-
-#     contact = relationship('Contact', back_populates='groups')
-#     group = relationship('Group', back_populates='contacts')
+ 
